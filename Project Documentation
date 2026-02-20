@@ -1,0 +1,50 @@
+Overview:
+The Loan Application Bot is an AI-powered assistant that streamlines loan applications for borrowers and lenders. It supports personal, auto, and mortgage loans, enabling eligibility checks, loan comparisons, pre-qualification, document submission, and payment calculations. Using ScaleDown, documents are compressed by up to 80%, speeding up the process and reducing underwriter workload.
+
+Key Features:
+
+Loan Comparison: Compare interest rates, terms, and fees across products.
+
+Eligibility Calculator: Calculates maximum loan based on income, credit, and expenses.
+
+Pre-Qualification: AI-driven assessment in under 2 minutes.
+
+Document Management: Upload, auto-tag, and compress documents.
+
+Application Tracking: Real-time status updates.
+
+Payment Calculator: EMI and interest calculation for informed decisions.
+
+Rate Monitoring: Tracks changing interest rates for optimal loan selection.
+
+Architecture:
+
+Frontend: Web or chatbot interface for user interaction
+
+Backend: Python + FastAPI/Flask, handles loan calculations and NLP
+
+ScaleDown: Compresses uploaded documents for faster processing
+
+Database: Stores users, loans, applications, and documents
+
+Analytics: Tracks approval rate, pre-qualification time, and satisfaction
+
+Workflow:
+
+User starts chat and selects loan type.
+
+Bot collects financial info and estimates eligibility.
+
+Compares loan options and calculates EMIs.
+
+Users upload documents; ScaleDown compresses them.
+
+Application is submitted and tracked; analytics update dashboard.
+
+Unique Features:
+
+Smart Loan Advisor: Personalized loan suggestions.
+
+AI Document Tagging: Auto-classifies uploaded files.
+
+Dashboard Analytics: Tracks key metrics for lenders and borrowers.
